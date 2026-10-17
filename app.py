@@ -32,7 +32,7 @@ def mostrar_nivel(nivel):
         mensagem = niveis[nivel - 1]
 
         print(cor + mensagem + Style.RESET_ALL)
-
+        
 # Simulação dos níveis de água
 for nivel in range(1, 6):
     mostrar_nivel(nivel)
